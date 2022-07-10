@@ -1,0 +1,26 @@
+ body {
+     background: linear-gradient(lightblue, blue);
+ }
+
+ #logout_btn {
+     margin: 10px;
+ }
+
+ #trending_rooms {
+     padding: 10px;
+     width: 80%;
+     background: rgba(255, 255, 255, 0.8);
+     border-radius: 15px;
+ }
+
+ .room_hr {
+     background-color: grey;
+     height: 1px;
+     border-color: grey;
+     width: 90%;
+     background-color: aqua;
+ }
+
+ .room_row{
+     font-weight: bolder;
+ }

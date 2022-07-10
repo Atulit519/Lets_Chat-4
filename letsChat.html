@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Lets Chat</title>
+    <link rel="stylesheet" href="letsChat.css">
+
+    <!--Firebase files-->
+    <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="container">
+    <!--Button for Logging Out-->
+    <button id = "logout_btn" onclick="Logout()" style="float: right" class="btn btn-danger glyphicon glyphicon-log-out"> Logout </button>
+    <!--Making all the elements-->
+    <center>
+        <h1 id="heading_h1" class = "page-header" style = "margin-left: 100px"> Welcome, <span id="heading_span"> </span></h1>
+        <input id = "room_input" class = "form-control" placeholder = "Enter a room name" type = text> <br>
+        <button id = "create_btn" class = "btn btn-success" onclick = "Create()"> Create Room </button> <br> <br>
+        <section id = "rooms">
+            <center>
+                <h2 style = "color: darkgray" class = "page-header"> Trending Rooms </h2> <br>
+                <div id = "trending_rooms">
+
+                </div>
+            </center>
+        </section>
+    </center>
+
+    <script src="letsChat.js"></script>
+</body>
+
+</html>

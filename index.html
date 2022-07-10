@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Lets Chat</title>
+
+    <!--Linking all the necessary files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Linking my files-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="container-fluid">
+    <!--Adding a division for information-->
+    <div id="information_division">
+        <center>
+            <!--Image for the logo-->
+                <img id="logo_image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Black_bold_spiral.svg/800px-Black_bold_spiral.svg.png">
+            <h1 class="page-header heading">Lets Chat</h1>
+            
+            <h4 class = "small heading">Chatting made easier</h4>
+        </center>
+    </div>
+
+    <!--Adding a division for login-->
+    <div id="login_division" class="container">
+        <center>
+            <h2>Login</h2>
+            <input id="user_input" placeholder="Enter username" class="form-control">
+            <br>
+            <button id="login_button" class="btn btn-success" onclick="Login()"> Create Account </button>
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

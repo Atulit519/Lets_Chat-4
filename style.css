@@ -1,0 +1,49 @@
+
+#information_division{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 95%;
+    float: left;
+    background: linear-gradient(lightblue, blue, darkblue);
+    border-radius: 30px;
+    
+}
+
+#logo_image{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+}
+
+.heading{
+    color: black;
+    font-weight: bold;
+    opacity: 0.4;
+}
+
+hr{
+    width: 70%;
+}
+
+#login_division{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 95%;
+    float: right;
+}
+
+h2{
+    margin-top: 150px;
+    color: rgb(98, 0, 255);
+    font-weight: bold;
+}
+
+#user_input{
+    width: 70%;
+}
+
+#login_button{
+    width: 40%
+}
